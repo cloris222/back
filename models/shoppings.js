@@ -17,7 +17,7 @@ const shoppingProductSchema = new Schema({
 })
 
 const shoppingsSchema = new Schema({
-  user: {
+  u_Id: {
     type: ObjectId,
     refs: 'users',
     required: [true, '缺少購買者Id']

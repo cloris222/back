@@ -13,10 +13,14 @@ const EventsSchema = new Schema({
     type: Date,
     required: [true, '缺少活動日期']
   },
-  people: {
+  p_Id: {
     type: ObjectId,
     refs: 'users',
-    required: [true, '缺少報名者']
+    required: [true, '缺少報名者Id']
+  },
+  p_name: {
+    type: String,
+    required: [true, '缺少報名者姓名']
   },
   fee: {
     type: Number,
