@@ -23,7 +23,6 @@ app.use(cors({
     }
   }
 }))
-
 // 處理跨域錯誤
 app.use((_, req, res, next) => {
   res.status(403).json({ success: false, message: '請求被拒' })
