@@ -34,6 +34,6 @@ const orderSchema = new Schema({
     type: String,
     default: ''
   }
-})
+}, { versionKey: false })
 
 export default model('orders', orderSchema)
