@@ -50,9 +50,9 @@ const userSchema = new Schema({
       message: '電話格式錯誤'
     }
   },
-  picture: {
+  image: {
     type: String,
-    required: true,
+    required: [true, '缺少圖片'],
     default: ''
   },
   tokens: {
@@ -78,6 +78,21 @@ const userSchema = new Schema({
 userSchema.pre('save', function (next) {
   const user = this
   if (user.isModified('password')) {
+    if (user.password.length >= 4 && user.password.length <= 12) {
+      user.password = bcrypt.hashSync(user.password, 10)
+    } else {
+      const error = new Error.ValidationError(null)
+      error.addError('password', new Error.ValidatorError({ message: '密碼長度錯誤' }))
+      next(error)
+      return
+    }
+  }
+  next()
+})
+
+userSchema.pre('findOneAndUpdate', function (next) {
+  const user = this._update
+  if (user.password) {
     if (user.password.length >= 4 && user.password.length <= 12) {
       user.password = bcrypt.hashSync(user.password, 10)
     } else {
