@@ -27,6 +27,10 @@ const userSchema = new Schema({
     type: String,
     required: [true, '請輸入密碼']
   },
+  name: {
+    type: String,
+    required: [true, '請輸入姓名']
+  },
   email: {
     type: String,
     required: [true, '請輸入信箱'],
@@ -45,15 +49,13 @@ const userSchema = new Schema({
     unique: true,
     validate: {
       validator (phone) {
-        return validator.isMobilePhone(phone['zh-TW'])
+        return validator.isMobilePhone(phone, 'zh-TW')
       },
       message: '電話格式錯誤'
     }
   },
-  image: {
-    type: String,
-    required: [true, '缺少圖片'],
-    default: ''
+  avatar: {
+    type: String
   },
   tokens: {
     type: [String],
