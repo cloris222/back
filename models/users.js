@@ -18,14 +18,16 @@ const userSchema = new Schema({
   account: {
     type: String,
     required: [true, '請輸入帳號'],
-    minlength: [4, '請填入4-12字元'],
-    maxlength: [12, '請填入4-12字元'],
+    minlength: [4, '請填入4~12字元'],
+    maxlength: [12, '請填入4~12字元'],
     unique: true,
     match: [/^[A-Za-z0-9]+$/, '帳號格式錯誤']
   },
   password: {
     type: String,
-    required: [true, '請輸入密碼']
+    required: [true, '請輸入密碼'],
+    minlength: [4, '請填入4~12字元'],
+    maxlength: [12, '請填入4~12字元']
   },
   name: {
     type: String,
