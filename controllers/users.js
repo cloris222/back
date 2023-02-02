@@ -1,13 +1,14 @@
 import users from '../models/users.js'
+import jwt from 'jsonwebtoken'
 
 export const register = async (req, res) => {
   try {
     await users.create({
-      account: req.body.account,
-      password: req.body.password,
-      name: req.body.name,
-      email: req.body.email,
-      phone: req.body.phone
+      account: req.body.registeraccount,
+      password: req.body.registerpassword,
+      name: req.body.registername,
+      email: req.body.registeremail,
+      phone: req.body.registerphone
     })
     res.status(200).json({ success: true, message: '' })
   } catch (error) {
@@ -20,5 +21,27 @@ export const register = async (req, res) => {
       console.log(error)
       res.status(500).json({ success: false, message: '未知錯誤' })
     }
+  }
+}
+export const login = async (req, res) => {
+  try {
+    const token = jwt.sign({ _id: req.user._id }, process.env.JWT_SECRET, { expiresIn: '7 days' })
+    req.user.tokens.push(token)
+    await req.user.save()
+    res.status(200).json({
+      success: true,
+      message: '',
+      result: {
+        token,
+        account: req.user.loginaccount,
+        email: req.user.loginemail,
+        cart: req.user.cart.reduce((total, current) => total + current.quantity, 0),
+        favorites: req.user.loginfavorites,
+        role: req.user.loginrole
+      }
+    })
+  } catch (error) {
+    console.log(error)
+    res.status(500).json({ success: false, message: '未知錯誤' })
   }
 }
