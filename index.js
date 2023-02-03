@@ -4,6 +4,7 @@ import mongoose from 'mongoose'
 // 處理跨域請求
 import cors from 'cors'
 import userRoute from './routes/users.js'
+import './passport/passport.js'
 
 mongoose.connect(process.env.DB_URL, { family: 4 })
 // mongodb內建消毒
