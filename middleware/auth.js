@@ -2,7 +2,6 @@ import passport from 'passport'
 import jsonwebtoken from 'jsonwebtoken'
 
 export const login = (req, res, next) => {
-  console.log('loginreq', req.user)
   // 使用 login 驗證方式
   // (error, user, info) 對應到 done 的三個參數
   // { session: false } 停用 cookie

@@ -25,9 +25,7 @@ const userSchema = new Schema({
   },
   password: {
     type: String,
-    required: [true, '請輸入密碼'],
-    minlength: [4, '請填入4~12字元'],
-    maxlength: [12, '請填入4~12字元']
+    required: [true, '請輸入密碼']
   },
   name: {
     type: String,

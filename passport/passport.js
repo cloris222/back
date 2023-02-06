@@ -8,16 +8,16 @@ const LocalStrategy = passportLocal.Strategy
 const JWTStrategy = passportJWT.Strategy
 
 passport.use('login', new LocalStrategy({
-  usernameField: 'account',
-  passwordField: 'password'
+  usernameField: 'loginaccount',
+  passwordField: 'loginpassword'
 //   done(錯誤，傳到下一步的資料，傳到下一步info的內容)
-}, async (account, password, done) => {
+}, async (loginaccount, loginpassword, done) => {
   try {
-    const user = await users.findOne({ account })
+    const user = await users.findOne({ account: loginaccount })
     if (!user) {
       return done(null, false, { message: '帳號不存在' })
     }
-    if (!bcrypt.compareSync(password, user.password)) {
+    if (!bcrypt.compareSync(loginpassword, user.password)) {
       return done(null, false, { message: '密碼錯誤' })
     }
     return done(null, user)

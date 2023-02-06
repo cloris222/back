@@ -33,6 +33,8 @@ export const login = async (req, res) => {
       message: '',
       result: {
         token,
+        phone: req.user.phone,
+        name: req.user.name,
         account: req.user.loginaccount,
         email: req.user.loginemail,
         cart: req.user.cart.reduce((total, current) => total + current.quantity, 0),
@@ -82,7 +84,7 @@ export const getUser = (req, res) => {
       }
     })
   } catch (error) {
-    console.log(error)
+    // console.log(error)
     res.status(500).json({ success: false, message: '未知錯誤' })
   }
 }
