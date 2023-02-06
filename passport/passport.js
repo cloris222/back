@@ -33,7 +33,7 @@ passport.use('jwt', new JWTStrategy({
   passReqToCallback: true
 //   payload為jwt解譯出來的資料
 }, async (req, payload, done) => {
-  const token = req.headers.authorization.split('')[1]
+  const token = req.headers.authorization.split(' ')[1]
   try {
     const user = await users.findOne({ _id: payload._id, tokens: token })
     if (user) {
