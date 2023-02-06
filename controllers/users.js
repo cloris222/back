@@ -35,11 +35,11 @@ export const login = async (req, res) => {
         token,
         phone: req.user.phone,
         name: req.user.name,
-        account: req.user.loginaccount,
-        email: req.user.loginemail,
+        account: req.user.account,
+        email: req.user.email,
         cart: req.user.cart.reduce((total, current) => total + current.quantity, 0),
-        favorites: req.user.loginfavorites,
-        role: req.user.loginrole
+        favorites: req.user.favorites,
+        role: req.user.role
       }
     })
   } catch (error) {
@@ -76,11 +76,13 @@ export const getUser = (req, res) => {
       success: true,
       message: '',
       result: {
-        account: req.user.loginaccount,
-        email: req.user.loginemail,
+        phone: req.user.phone,
+        name: req.user.name,
+        account: req.user.account,
+        email: req.user.email,
         cart: req.user.cart,
-        favorites: req.user.loginfavorites,
-        role: req.user.loginrole
+        favorites: req.user.favorites,
+        role: req.user.role
       }
     })
   } catch (error) {
