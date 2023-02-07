@@ -34,7 +34,7 @@ const EventsSchema = new Schema({
     type: String,
     required: [true, '缺少活動狀態'],
     enum: {
-      value: ['敬請期待', '報名中', '截止報名'],
+      values: ['敬請期待', '報名中', '截止報名'],
       message: '分類錯誤'
     }
   },

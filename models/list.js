@@ -10,11 +10,11 @@ const listSchema = new Schema({
     required: [true, '缺少圖片']
   },
   category: {
-    type: String,
+    type: Array,
     required: [true, '缺少標籤'],
     enum:
     {
-      value: ['派對遊戲', '策略遊戲', '陣營遊戲', '親子遊戲', '紙牌遊戲', '其他遊戲', '熱門遊戲', '最新遊戲', '新手友善'],
+      values: ['派對遊戲', '策略遊戲', '陣營遊戲', '親子遊戲', '紙牌遊戲', '其他遊戲', '熱門遊戲', '最新遊戲', '新手友善'],
       message: '分類錯誤'
     }
   },

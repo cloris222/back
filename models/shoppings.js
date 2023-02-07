@@ -37,7 +37,7 @@ const shoppingsSchema = new Schema({
   status: {
     type: String,
     enum: {
-      value: ['準備出貨', '已出貨'],
+      values: ['準備出貨', '已出貨'],
       message: '分類錯誤'
     }
   },

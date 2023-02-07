@@ -10,11 +10,11 @@ const productSchema = new Schema({
     required: [true, '缺少圖片']
   },
   category: {
-    type: String,
+    type: [String],
     required: [true, '缺少標籤'],
     enum:
     {
-      value: ['派對遊戲', '策略遊戲', '陣營遊戲', '親子遊戲', '紙牌遊戲', '其他遊戲', '暢銷遊戲', '最新上架', '撿便宜', '八成新', '近全新'],
+      values: ['派對遊戲', '策略遊戲', '陣營遊戲', '親子遊戲', '紙牌遊戲', '其他遊戲', '暢銷遊戲', '最新上架', '撿便宜', '八成新', '近全新'],
       message: '分類錯誤'
     }
   },
