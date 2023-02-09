@@ -84,6 +84,7 @@ export const editProducts = async (req, res) => {
     } else if (error.name === 'CastError') {
       res.status(404).json({ success: false, message: '找不到' })
     } else {
+      console.log(error)
       res.status(500).json({ success: false, message: '未知錯誤' })
     }
   }
