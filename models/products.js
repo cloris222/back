@@ -5,8 +5,8 @@ const productSchema = new Schema({
     type: String,
     required: [true, '缺少商品名稱']
   },
-  image: {
-    type: String,
+  images: {
+    type: [String],
     required: [true, '缺少圖片']
   },
   category: {

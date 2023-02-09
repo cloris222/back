@@ -5,7 +5,7 @@ export const createProducts = async (req, res) => {
   try {
     const result = await products.create({
       name: req.body.name,
-      image: req.file?.path || '',
+      images: req.files?.images?.map(file => file.path) || [],
       category: req.body.category,
       gamer: req.body.gamer,
       age: req.body.age,
