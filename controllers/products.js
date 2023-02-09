@@ -13,6 +13,7 @@ export const createProducts = async (req, res) => {
       price: req.body.price,
       sell: req.body.sell
     })
+    console.log(result)
     res.status(200).json({ success: true, message: '', result })
   } catch (error) {
     if (error.name === 'ValidationError') {
