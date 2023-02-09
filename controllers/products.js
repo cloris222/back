@@ -5,7 +5,7 @@ export const createProducts = async (req, res) => {
   try {
     const result = await products.create({
       name: req.body.name,
-      images: req.files?.images?.map(file => file.path) || [],
+      images: req.files?.images.map(file => file.path) || [],
       category: req.body.category,
       gamer: req.body.gamer,
       age: req.body.age,
@@ -78,6 +78,7 @@ export const editProducts = async (req, res) => {
       res.status(200).json({ success: true, message: '', result })
     }
   } catch (error) {
+    console.log(error)
     if (error.name === 'ValidationError') {
       res.status(400).json({ success: false, message: error.errors[Object.keys(error.errors)[0]].message })
     } else if (error.name === 'CastError') {
