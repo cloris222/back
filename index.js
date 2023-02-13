@@ -5,6 +5,7 @@ import mongoose from 'mongoose'
 import cors from 'cors'
 import userRoute from './routes/users.js'
 import productsRoute from './routes/products.js'
+import shoppingsRoute from './routes/shoppings.js'
 import './passport/passport.js'
 
 mongoose.connect(process.env.DB_URL, { family: 4 })
@@ -38,6 +39,7 @@ app.use((_, req, res, next) => {
 
 app.use('/users', userRoute)
 app.use('/products', productsRoute)
+app.use('/shoppings', shoppingsRoute)
 
 app.get('/', (req, res) => {
   res.status(200).json({ success: true, message: '' })

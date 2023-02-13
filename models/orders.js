@@ -1,7 +1,7 @@
 import { Schema, model, ObjectId } from 'mongoose'
 
 const orderSchema = new Schema({
-  u_Id: {
+  u_id: {
     type: ObjectId,
     ref: 'users',
     required: [true, '缺少預約人Id']

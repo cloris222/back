@@ -1,6 +1,6 @@
 import users from '../models/users.js'
 import jwt from 'jsonwebtoken'
-import { products } from '../models/products,js'
+import products from '../models/products.js'
 
 export const register = async (req, res) => {
   try {
@@ -98,7 +98,7 @@ export const editCart = async (req, res) => {
     const idx = req.user.cart.findIndex(cart => cart.p_id.toString() === req.body.p_id)
     if (idx > -1) {
       // 如果有，檢查新數量是多少
-      const quantity = req.user.cart[idx].quantity + parseInt(req.body.quantity)
+      const quantity = parseInt(req.body.quantity)
       console.log(req.body.quantity)
       if (quantity <= 0) {
         // 如果新數量小於 0，從購物車陣列移除
@@ -118,7 +118,8 @@ export const editCart = async (req, res) => {
       // 如果存在，加入購物車陣列
       req.user.cart.push({
         p_id: req.body.p_id,
-        quantity: parseInt(req.body.quantity)
+        quantity: parseInt(req.body.quantity),
+        price: req.body.price
       })
     }
     await req.user.save()
@@ -127,6 +128,7 @@ export const editCart = async (req, res) => {
     if (error.name === 'ValidationError') {
       res.status(400).json({ success: false, message: error.errors[Object.keys(error.errors)[0]].message })
     } else {
+      console.log(error)
       res.status(500).json({ success: false, message: '未知錯誤' })
     }
   }

@@ -3,7 +3,7 @@ import validator from 'validator'
 import bcrypt from 'bcrypt'
 
 const cartSchema = new Schema({
-  product: {
+  p_id: {
     type: ObjectId,
     ref: 'products',
     required: [true, '缺少商品']
@@ -11,7 +11,11 @@ const cartSchema = new Schema({
   quantity: {
     type: Number,
     required: [true, '缺少商品數量']
+  },
+  price: {
+    type: Number
   }
+
 })
 
 const userSchema = new Schema({

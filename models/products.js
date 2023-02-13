@@ -38,6 +38,10 @@ const productSchema = new Schema({
     type: Boolean,
     required: [true, '缺少上架狀態'],
     default: false
+  },
+  cartDialog: {
+    type: Boolean,
+    default: false
   }
 }, { versionKey: false })
 

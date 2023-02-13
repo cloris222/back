@@ -1,7 +1,7 @@
 import { Schema, model, ObjectId } from 'mongoose'
 
 const shoppingProductSchema = new Schema({
-  p_Id: {
+  p_id: {
     type: ObjectId,
     refs: 'products',
     required: [true, '缺少商品']
@@ -17,7 +17,7 @@ const shoppingProductSchema = new Schema({
 })
 
 const shoppingsSchema = new Schema({
-  u_Id: {
+  u_id: {
     type: ObjectId,
     refs: 'users',
     required: [true, '缺少購買者Id']
@@ -29,10 +29,6 @@ const shoppingsSchema = new Schema({
   products: {
     type: [shoppingProductSchema],
     default: []
-  },
-  total: {
-    type: Number,
-    required: [true, '缺少總金額']
   },
   status: {
     type: String,
