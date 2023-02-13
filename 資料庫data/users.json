@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "63ea604dae7ca42488868dc3"
+  },
+  "account": "admin",
+  "password": "$2b$10$eGeXCJs14J/vji9nYOcISe/Wqy5A8mAi8DwC/Yf4T9CQqDtlm0TCy",
+  "name": "管理員",
+  "email": "admin@gmail.com",
+  "phone": "0984222830",
+  "tokens": [
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2VhNjA0ZGFlN2NhNDI0ODg4NjhkYzMiLCJpYXQiOjE2NzYzMDQ1MzgsImV4cCI6MTY3NjkwOTMzOH0.EFTc8RGWPVZgVagmQ0rGlhFY-oLVXzXGIwusKBU3Yjo"
+  ],
+  "role": 1,
+  "favorites": [],
+  "cart": []
+},{
+  "_id": {
+    "$oid": "63ea6080ae7ca42488868dc5"
+  },
+  "account": "user",
+  "password": "$2b$10$pBXdLf0ukUo6V/d2I0QhC..yd5dcNuhkT0oTteIH7OZpDPof3hAii",
+  "name": "使用者",
+  "email": "user@gmail.com",
+  "phone": "0972627360",
+  "tokens": [],
+  "role": 0,
+  "favorites": [],
+  "cart": []
+}]
