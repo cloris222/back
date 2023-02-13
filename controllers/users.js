@@ -81,7 +81,7 @@ export const getUser = (req, res) => {
         name: req.user.name,
         account: req.user.account,
         email: req.user.email,
-        cart: req.user.cart,
+        cart: req.user.cart.reduce((total, current) => total + current.quantity, 0),
         favorites: req.user.favorites,
         role: req.user.role
       }
