@@ -34,6 +34,16 @@ export const getSellProducts = async (req, res) => {
   }
 }
 
+// 篩選商品
+export const getFilterSellProducts = async (req, res) => {
+  try {
+    const result = await products.find({ sell: true }, { gamer: { $gte: req.params.gamer }, category: { $in: req.params.category }, price: { $gte: req.params.price } })
+    res.status(200).json({ success: true, message: '', result })
+  } catch (error) {
+    res.status(500).json({ success: false, message: '未知錯誤' })
+  }
+}
+
 export const getAllProducts = async (req, res) => {
   try {
     const result = await products.find()
