@@ -14,9 +14,13 @@ const orderSchema = new Schema({
     type: String,
     required: [true, '缺少預約人電話']
   },
-  date: {
+  orderDate: {
     type: Date,
     required: [true, '缺少預約日期']
+  },
+  orderonDate: {
+    type: Date,
+    default: Date.now
   },
   participant: {
     type: Number,
@@ -25,10 +29,6 @@ const orderSchema = new Schema({
   hours: {
     type: Number,
     required: [true, '缺少預約時數']
-  },
-  consumptionPatterns: {
-    type: String,
-    required: [true, '缺少消費方式']
   },
   others: {
     type: String,

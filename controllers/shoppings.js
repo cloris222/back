@@ -35,7 +35,7 @@ export const createShoppings = async (req, res) => {
 export const getMyShoppings = async (req, res) => {
   try {
     const result = await shoppings.find({ u_id: req.user._id }).populate('products.p_id')
-    console.log(result)
+    // console.log(result)
     res.status(200).json({ success: true, message: '', result })
   } catch (error) {
     res.status(500).json({ success: false, message: '未知錯誤' })
