@@ -26,6 +26,10 @@ const shoppingsSchema = new Schema({
     type: String,
     required: [true, '缺少購買者姓名']
   },
+  date: {
+    type: Date,
+    default: Date.now
+  },
   products: {
     type: [shoppingProductSchema],
     default: []

@@ -41,6 +41,11 @@ app.use('/users', userRoute)
 app.use('/products', productsRoute)
 app.use('/shoppings', shoppingsRoute)
 
+// 部署render用的永遠回傳200路由
+app.get('/', (req, res) => {
+  res.status(200).json({ success: true, message: '' })
+})
+
 app.get('/', (req, res) => {
   res.status(200).json({ success: true, message: '' })
 })
