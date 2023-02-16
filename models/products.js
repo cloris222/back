@@ -19,7 +19,7 @@ const productSchema = new Schema({
     }
   },
   gamer: {
-    type: Number,
+    type: String,
     required: [true, '缺少遊戲人數']
   },
   age: {

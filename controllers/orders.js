@@ -21,6 +21,15 @@ export const createOrders = async (req, res) => {
   }
 }
 
+export const getAvailableOrders = async (req, res) => {
+  try {
+    const result = await orders.find({ orderDate: req.body.orderDate }).select('time hour')
+    res.status(200).json({ success: true, message: '', result })
+  } catch (error) {
+    res.status(500).json({ success: false, message: '未知錯誤' })
+  }
+}
+
 export const getMyOrders = async (req, res) => {
   try {
     const result = await orders.find({ u_id: req.user._id })
