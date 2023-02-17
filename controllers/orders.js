@@ -2,13 +2,15 @@ import orders from '../models/orders.js'
 
 export const createOrders = async (req, res) => {
   try {
+    console.log(req)
     const result = await orders.create({
-      u_id: req.body.u_id,
-      name: req.body.name,
-      phone: req.body.phone,
+      u_id: req.user._id,
+      name: req.user.name,
+      phone: req.user.phone,
       orderDate: req.body.orderDate,
       participant: req.body.participant,
-      hour: req.body.hour,
+      time: req.body.time,
+      hours: req.body.hours,
       others: req.body.others
     })
     res.status(200).json({ success: true, message: '', result })
