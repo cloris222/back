@@ -25,7 +25,7 @@ export const createOrders = async (req, res) => {
 
 export const getAvailableOrders = async (req, res) => {
   try {
-    const result = await orders.find({ orderDate: req.body.orderDate }).select('time hour')
+    const result = await orders.find({ orderDate: req.body.orderDate }).select('time hours')
     res.status(200).json({ success: true, message: '', result })
   } catch (error) {
     res.status(500).json({ success: false, message: '未知錯誤' })
