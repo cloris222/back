@@ -2,7 +2,7 @@ import orders from '../models/orders.js'
 
 export const createOrders = async (req, res) => {
   try {
-    console.log(req)
+    //  console.log(req)
     const result = await orders.create({
       u_id: req.user._id,
       name: req.user.name,
@@ -45,7 +45,7 @@ export const getMyOrders = async (req, res) => {
 export const getAllOrders = async (req, res) => {
   try {
     // .populate(關聯資料路徑, 取的欄位)
-    const result = await orders.find().populate('u_id', 'account', 'name')
+    const result = await orders.find().populate('u_id', 'name')
     res.status(200).json({ success: true, message: '', result })
   } catch (error) {
     res.status(500).json({ success: false, message: '未知錯誤' })
