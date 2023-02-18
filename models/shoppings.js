@@ -3,7 +3,7 @@ import { Schema, model, ObjectId } from 'mongoose'
 const shoppingProductSchema = new Schema({
   p_id: {
     type: ObjectId,
-    refs: 'products',
+    ref: 'products',
     required: [true, '缺少商品']
   },
   quantity: {
