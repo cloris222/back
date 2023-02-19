@@ -75,7 +75,7 @@ export const editProducts = async (req, res) => {
   try {
     const result = await products.findByIdAndUpdate(req.params.id, {
       name: req.body.name,
-      image: req.file?.path,
+      images: req.files?.images.map(file => file.path) || [],
       category: req.body.category,
       gamer: req.body.gamer,
       age: req.body.age,
