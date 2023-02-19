@@ -92,6 +92,16 @@ export const getUser = (req, res) => {
   }
 }
 
+export const getAllUsers = async (req, res) => {
+  try {
+    const result = await users.find({ role: 0 })
+    res.status(200).json({ success: true, message: '', result })
+  } catch (error) {
+    console.log(error)
+    res.status(500).json({ success: false, message: '未知錯誤' })
+  }
+}
+
 export const editCart = async (req, res) => {
   try {
     // 找購物車有沒有此商品
