@@ -1,16 +1,16 @@
 import { Schema, model } from 'mongoose'
 
-const listSchema = new Schema({
+const boardGameListSchema = new Schema({
   name: {
     type: String,
     required: [true, '缺少桌遊名稱']
   },
-  image: {
-    type: String,
+  images: {
+    type: [String],
     required: [true, '缺少圖片']
   },
   category: {
-    type: Array,
+    type: [String],
     required: [true, '缺少標籤'],
     enum:
     {
@@ -19,7 +19,7 @@ const listSchema = new Schema({
     }
   },
   gamer: {
-    type: Number,
+    type: String,
     required: [true, '缺少遊戲人數']
   },
   age: {
@@ -29,7 +29,12 @@ const listSchema = new Schema({
   rules: {
     type: String,
     required: [true, '缺少遊戲說明']
+  },
+  sell: {
+    type: Boolean,
+    required: [true, '缺少上架狀態'],
+    default: false
   }
 }, { versionKey: false })
 
-export default model('list', listSchema)
+export default model('boardGameList', boardGameListSchema)
