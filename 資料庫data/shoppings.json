@@ -1,0 +1,213 @@
+[{
+  "_id": {
+    "$oid": "63ec756edfa3fcefbae6f02c"
+  },
+  "u_id": {
+    "$oid": "63ea604dae7ca42488868dc3"
+  },
+  "name": "管理員",
+  "products": [
+    {
+      "p_id": {
+        "$oid": "63ea648dae7ca42488868dee"
+      },
+      "quantity": 3,
+      "price": 400,
+      "_id": {
+        "$oid": "63ec7561dfa3fcefbae6f017"
+      }
+    },
+    {
+      "p_id": {
+        "$oid": "63ea61f3ae7ca42488868dd6"
+      },
+      "quantity": 2,
+      "price": 300,
+      "_id": {
+        "$oid": "63ec7566dfa3fcefbae6f01c"
+      }
+    }
+  ],
+  "others": "",
+  "date": {
+    "$date": {
+      "$numberLong": "1676440942273"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ec76e7dfa3fcefbae6f05d"
+  },
+  "u_id": {
+    "$oid": "63ea604dae7ca42488868dc3"
+  },
+  "name": "管理員",
+  "products": [
+    {
+      "p_id": {
+        "$oid": "63ea61f3ae7ca42488868dd6"
+      },
+      "quantity": 2,
+      "price": 300,
+      "_id": {
+        "$oid": "63ec76dbdfa3fcefbae6f048"
+      }
+    },
+    {
+      "p_id": {
+        "$oid": "63ea64f5ae7ca42488868df4"
+      },
+      "quantity": 9,
+      "price": 300,
+      "_id": {
+        "$oid": "63ec76e1dfa3fcefbae6f04d"
+      }
+    }
+  ],
+  "others": "",
+  "date": {
+    "$date": {
+      "$numberLong": "1676441319759"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ec7e71dfa3fcefbae6f0cd"
+  },
+  "u_id": {
+    "$oid": "63ec7e37dfa3fcefbae6f0a9"
+  },
+  "name": "nothingman",
+  "products": [
+    {
+      "p_id": {
+        "$oid": "63ea626fae7ca42488868ddc"
+      },
+      "quantity": 4,
+      "price": 600,
+      "_id": {
+        "$oid": "63ec7e5edfa3fcefbae6f0b0"
+      }
+    },
+    {
+      "p_id": {
+        "$oid": "63ea6636ae7ca42488868e00"
+      },
+      "quantity": 6,
+      "price": 800,
+      "_id": {
+        "$oid": "63ec7e64dfa3fcefbae6f0b5"
+      }
+    }
+  ],
+  "others": "",
+  "date": {
+    "$date": {
+      "$numberLong": "1676443249018"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ef1dd4799398d3ed0fd437"
+  },
+  "u_id": {
+    "$oid": "63ea6080ae7ca42488868dc5"
+  },
+  "name": "使用者",
+  "products": [
+    {
+      "p_id": {
+        "$oid": "63ea626fae7ca42488868ddc"
+      },
+      "quantity": 5,
+      "price": 600,
+      "_id": {
+        "$oid": "63ef1c54799398d3ed0fd425"
+      }
+    }
+  ],
+  "others": "",
+  "date": {
+    "$date": {
+      "$numberLong": "1676615124655"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ef1dfe799398d3ed0fd44c"
+  },
+  "u_id": {
+    "$oid": "63ea6080ae7ca42488868dc5"
+  },
+  "name": "使用者",
+  "products": [
+    {
+      "p_id": {
+        "$oid": "63ea6362ae7ca42488868de2"
+      },
+      "quantity": 2,
+      "price": 100,
+      "_id": {
+        "$oid": "63ef1df9799398d3ed0fd440"
+      }
+    }
+  ],
+  "others": "",
+  "date": {
+    "$date": {
+      "$numberLong": "1676615166511"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ef1e3e799398d3ed0fd45f"
+  },
+  "u_id": {
+    "$oid": "63ea6080ae7ca42488868dc5"
+  },
+  "name": "使用者",
+  "products": [
+    {
+      "p_id": {
+        "$oid": "63ea63e8ae7ca42488868de8"
+      },
+      "quantity": 2,
+      "price": 500,
+      "_id": {
+        "$oid": "63ef1e3b799398d3ed0fd453"
+      }
+    }
+  ],
+  "others": "",
+  "date": {
+    "$date": {
+      "$numberLong": "1676615230724"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63f2dc5430855be001109275"
+  },
+  "u_id": {
+    "$oid": "63ea6080ae7ca42488868dc5"
+  },
+  "name": "使用者",
+  "products": [
+    {
+      "p_id": {
+        "$oid": "63ea6362ae7ca42488868de2"
+      },
+      "quantity": 5,
+      "price": 100,
+      "_id": {
+        "$oid": "63f2dc5030855be001109269"
+      }
+    }
+  ],
+  "others": "",
+  "date": {
+    "$date": {
+      "$numberLong": "1676860500291"
+    }
+  }
+}]
