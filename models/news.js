@@ -10,9 +10,17 @@ const NewsSchema = new Schema({
     type: String,
     required: [true, '缺少公告標題']
   },
-  descruption: {
+  description: {
     type: String,
     required: [true, '缺少公告內容']
+  },
+  images: {
+    type: [String],
+    required: [true, '缺少圖片']
+  },
+  sell: {
+    type: Boolean,
+    required: [true, '缺少上架狀態']
   }
 }, { versionKey: false })
 

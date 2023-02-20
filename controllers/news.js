@@ -1,16 +1,13 @@
-import products from '../models/products.js'
+import news from '../models/news.js'
 
-// 新增商品
-export const createProducts = async (req, res) => {
+// 新增公告
+export const createNews = async (req, res) => {
   try {
-    const result = await products.create({
-      name: req.body.name,
+    const result = await news.create({
+      date: req.body.date,
+      title: req.body.title,
       images: req.files?.images.map(file => file.path) || [],
-      category: req.body.category,
-      gamer: req.body.gamer,
-      age: req.body.age,
-      rules: req.body.rules,
-      price: req.body.price,
+      description: req.body.description,
       sell: req.body.sell
     })
     res.status(200).json({ success: true, message: '', result })
@@ -23,38 +20,28 @@ export const createProducts = async (req, res) => {
   }
 }
 
-// 查詢商品
-export const getSellProducts = async (req, res) => {
+// get公告
+export const getSellNews = async (req, res) => {
   try {
-    const result = await products.find({ sell: true })
+    const result = await news.find({ sell: true })
     res.status(200).json({ success: true, message: '', result })
   } catch (error) {
     res.status(500).json({ success: false, message: '未知錯誤' })
   }
 }
 
-// 篩選商品
-export const getFilterSellProducts = async (req, res) => {
+export const getAllNews = async (req, res) => {
   try {
-    const result = await products.find({ sell: true }, { gamer: { $gte: req.params.gamer }, category: { $in: req.params.category }, price: { $gte: req.params.price } })
+    const result = await news.find()
     res.status(200).json({ success: true, message: '', result })
   } catch (error) {
     res.status(500).json({ success: false, message: '未知錯誤' })
   }
 }
 
-export const getAllProducts = async (req, res) => {
+export const getNews = async (req, res) => {
   try {
-    const result = await products.find()
-    res.status(200).json({ success: true, message: '', result })
-  } catch (error) {
-    res.status(500).json({ success: false, message: '未知錯誤' })
-  }
-}
-
-export const getProduct = async (req, res) => {
-  try {
-    const result = await products.findById(req.params.id)
+    const result = await news.findById(req.params.id)
     if (!result) {
       res.status(404).json({ success: false, message: '找不到' })
     } else {
@@ -69,17 +56,14 @@ export const getProduct = async (req, res) => {
   }
 }
 
-// 編輯商品
-export const editProducts = async (req, res) => {
+// 編輯公告
+export const editNews = async (req, res) => {
   try {
-    const result = await products.findByIdAndUpdate(req.params.id, {
-      name: req.body.name,
+    const result = await news.findByIdAndUpdate(req.params.id, {
+      date: req.body.date,
+      title: req.body.title,
       images: req.files?.images.map(file => file.path) || [],
-      category: req.body.category,
-      gamer: req.body.gamer,
-      age: req.body.age,
-      rules: req.body.rules,
-      price: req.body.price,
+      description: req.body.description,
       sell: req.body.sell
     }, { new: true })
     if (!result) {
