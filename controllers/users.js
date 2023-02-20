@@ -152,3 +152,29 @@ export const getCart = async (req, res) => {
     res.status(500).json({ success: false, message: '未知錯誤' })
   }
 }
+
+export const editProfiles = async (req, res) => {
+  try {
+    const result = await users.findByIdAndUpdate(req.user._id, {
+      name: req.body.name,
+      account: req.body.account,
+      email: req.body.email,
+      phone: req.body.phone
+    }, { new: true })
+    if (!result) {
+      res.status(404).json({ success: false, message: '找不到' })
+    } else {
+      res.status(200).json({ success: true, message: '', result })
+    }
+  } catch (error) {
+    console.log(error)
+    if (error.name === 'ValidationError') {
+      res.status(400).json({ success: false, message: error.errors[Object.keys(error.errors)[0]].message })
+    } else if (error.name === 'CastError') {
+      res.status(404).json({ success: false, message: '找不到' })
+    } else {
+      console.log(error)
+      res.status(500).json({ success: false, message: '未知錯誤' })
+    }
+  }
+}
