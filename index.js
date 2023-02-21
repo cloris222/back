@@ -10,6 +10,7 @@ import ordersRoute from './routes/orders.js'
 import boardGameListRoute from './routes/boardGameList.js'
 import newsRoute from './routes/news.js'
 import './passport/passport.js'
+import https from 'https'
 
 mongoose.connect(process.env.DB_URL, { family: 4 })
 // mongodb內建消毒
@@ -63,3 +64,10 @@ app.all('*', (req, res) => {
 app.listen(process.env.PORT || 4000, () => {
   console.log('伺服器啟動')
 })
+
+// 每五分鐘呼叫一次RENDER
+if (process.env.RENDER) {
+  setInterval(() => {
+    https.get(process.env.RENDER)
+  }, 1000 * 60 * 5)
+}
