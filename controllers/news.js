@@ -48,6 +48,7 @@ export const getNews = async (req, res) => {
       res.status(200).json({ success: true, message: '', result })
     }
   } catch (error) {
+    console.log(error)
     if (error.name === 'CastError') {
       res.status(404).json({ success: false, message: '找不到' })
     } else {

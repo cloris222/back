@@ -5,8 +5,9 @@ export const createOrders = async (req, res) => {
     //  console.log(req)
     const result = await orders.create({
       u_id: req.user._id,
-      name: req.user.name,
-      phone: req.user.phone,
+      name: req.body.name,
+      phone: req.body.phone,
+      email: req.body.email,
       orderDate: req.body.orderDate,
       orderonDate: req.body.orderonDate,
       participant: req.body.participant,
