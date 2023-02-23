@@ -63,7 +63,7 @@ export const editNews = async (req, res) => {
     const result = await news.findByIdAndUpdate(req.params.id, {
       date: req.body.date,
       title: req.body.title,
-      images: req.files?.images?.map(file => file.path) || [],
+      images: req.files?.images?.map(file => file.path) || req.body.images,
       description: req.body.description,
       sell: req.body.sell
     }, { new: true })
