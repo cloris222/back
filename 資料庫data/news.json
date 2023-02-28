@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "63f78321e115aae16efd6246"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1640966400000"
+    }
+  },
+  "title": "飲品第二杯免費",
+  "description": "即日起為歡慶新官網上架優惠！館內飲品續杯免費至112年2月。",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677248674/wxp1562auceudd3mmxix.svg"
+  ],
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63f7834ee115aae16efd624c"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1664035200000"
+    }
+  },
+  "title": "東京之王：店家賽",
+  "description": "於9月25日 晚間7點舉辦！ 即日起至9／24 前，可於表單報名參加！歡迎玩家們前來競技切磋，爭奪王的地位吧！詳情請點 https://reurl.cc/kEqaWr",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677165388/gtkq71rq8yetbcrtxfgl.svg"
+  ],
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63f78394e115aae16efd6253"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1672416000000"
+    }
+  },
+  "title": "跨年時段方案",
+  "description": "2022年12月31日當天 A時段（13:00-18:00 / 5小時）400元 / 人 B時段（18:10-22:00 / 4小時）400元 / 人 C時段（22:10-02:00 / 4小時）500元 / 人",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677165459/qatzy54k1wtd17g9lon4.svg"
+  ],
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63f783cde115aae16efd6259"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1677513600000"
+    }
+  },
+  "title": "學生寒假平日優惠",
+  "description": "為了獎勵各位辛苦的學生🎁 二月底前，週一至週四持學生證來店～ 遊玩過程中於『Instagram打卡』或 『拍攝Reals影片』上傳即可免費入場‼️",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677165515/rwsjb5hccjxcrz6owihx.svg"
+  ],
+  "sell": true
+}]

@@ -1,0 +1,380 @@
+[{
+  "_id": {
+    "$oid": "63f77b6ee115aae16efd6201"
+  },
+  "name": "這是一個桌遊",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573563/slc8h0ozwxez2sui2qzq.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573563/hdeok4sch5zmntxbmnao.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573563/acuo8jryju4hxmaxofjy.jpg"
+  ],
+  "category": [
+    "派對遊戲",
+    "新手友善"
+  ],
+  "gamer": "3~8",
+  "age": 6,
+  "rules": "這是一個桌遊",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fd9921ac97a697250d3903"
+  },
+  "name": "瞎掰王",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677564192/fmpd9ge2v0yxmgvkamam.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677564192/j9rqy38pzhususvtjr38.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677564192/zcq0thi6pvbtzhrvrob9.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677564192/rlf8bml3dd01gogtwvim.jpg"
+  ],
+  "category": [
+    "派對遊戲",
+    "熱門遊戲"
+  ],
+  "gamer": "3~9",
+  "age": 9,
+  "rules": "熱銷亞洲的派對桌遊！這是款專為講幹話設計的遊戲！到底誰在講真話，誰在瞎掰？來一場『瞎掰王』讓你塵封已久的幹話小宇宙爆發！胡謅無罪，瞎掰有理，達到吹牛最高境界。這遊戲的最終目的，就是要你成為『瞎掰王』。",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdb741ac97a697250d391c"
+  },
+  "name": "言下之意",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677571903/eznhyfr3f69gjs2sje4l.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677571903/swib4kphigmnvv5yxsv0.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677571903/arauhngambuwktopxasx.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677571903/soswhngbartnbs6uxi1j.jpg"
+  ],
+  "category": [
+    "派對遊戲",
+    "新手友善"
+  ],
+  "gamer": "4~8",
+  "age": 10,
+  "rules": "言下之意是微妙對話的派對遊戲，其中兩個團隊競爭猜測秘密關鍵詞。\r\n每一輪，一隊選擇一個線索，並給那些線索提供相同的秘密關鍵字的知識。\r\n線索的目標是幫助他們的隊友在另一隊之前猜測這個關鍵詞。",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdb895ac97a697250d3922"
+  },
+  "name": "阿瓦隆",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572243/u6vmjruzj1gyvrs4j82f.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572244/biao72oiyinn52l2tz0n.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572243/prthl7q9zptcpbqmqaqo.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572243/d4alzfnz6x42kbzttnaq.jpg"
+  ],
+  "category": [
+    "陣營遊戲",
+    "熱門遊戲"
+  ],
+  "gamer": "5~10",
+  "age": 13,
+  "rules": "阿瓦隆是一款考驗團隊合作、溝通和觀察力的桌遊。整體而言，遊戲樂趣來自於玩家之間的互動和表情變化；與不同的人玩、觀察他們的言語和表情、從中找出線索來幫助同伴迎向勝利，是阿瓦隆百玩不膩的關鍵。\r\n\r\n擁有特殊能力的角色讓這款遊戲變化多端，更可以視參與玩家對遊戲的熟悉程度，自行選擇要加入甚麼角色。其中最重要的當然是梅林法師這個角色，因為在遊戲開始時，所有邪惡的爪牙會互相睜開眼睛看到彼此，他們會在遊戲過程想盡辦法欺瞞、偽裝，以騙過那些甚麼資訊都不清楚的好人；只有梅林法師會得知壞人的身分，但他必須在不透露自己身分的前提下引導好人走向勝利，若是太明顯被壞人捉出來刺殺，好人陣營也就落敗。諜對諜的緊張刺激感，是其他遊戲中感受不到的。",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdb981ac97a697250d392f"
+  },
+  "name": "再度燃起的青色之夜",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572479/inwifdlju8u5wfwqacj9.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572479/cofhf2kha1nwjl2yoteu.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572478/vhqfabhpk4rmiuqbzaxx.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572478/sfklp54wk9os0v4idhwj.jpg"
+  ],
+  "category": [
+    "策略遊戲",
+    "熱門遊戲"
+  ],
+  "gamer": "6~7",
+  "age": 15,
+  "rules": "1960年代，義大利黑手黨「黑玫瑰」的老闆，忽然召集家族主要幹部們前來自宅進行餐會，由於老闆身患宿疾已久，繼承人卻懸而未決，大家開始謠傳老闆打算在這場餐會中發表繼任人選，然而預定時間已到，老闆卻不見蹤影......老闆的妻子、弟弟、家族幹部、家族占卜師、神秘的娼婦、被綁在椅子上的男人，大家各懷鬼胎、行動複雜交錯，讓事態越發混亂離奇。",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdba1aac97a697250d3939"
+  },
+  "name": "烏托邦賽局",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572667/dinz6oam2sjnrchpkimy.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572667/pndci8x9l4s33uwffaac.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572667/kgfix9ud2fc15gjm4fzf.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572667/kpakut2ybb6ujilwdaad.jpg"
+  ],
+  "category": [
+    "最新遊戲",
+    "陣營遊戲"
+  ],
+  "gamer": "4~6",
+  "age": 12,
+  "rules": "這是一場社會議題的遊戲體驗，現實的縮影\r\n包含十種制度，體驗不同的分配正義\r\n世代繼承與階級流動，要如何才能翻轉人生\r\n寓教於樂，與親朋好友一起激盪：『什麼樣的社會，是一群人的理想生活。』\r\n嘖嘖募資破百萬，社會議題夯起來",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdbad1ac97a697250d3948"
+  },
+  "name": "這就是人生",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572815/detqe9kk2khy53o0aivx.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572815/l7zbtcyebzvhkpqbqlna.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572815/w5jsb26yy17hj1zcpbdw.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677572815/oqcfowsufuoipnqsylbh.jpg"
+  ],
+  "category": [
+    "親子遊戲",
+    "其他遊戲"
+  ],
+  "gamer": "2~6",
+  "age": 8,
+  "rules": "暢銷遊戲《糟了個糕！》全新版本\r\n\r\n令人難以置信的遊戲！\r\n\r\n擲骰和移動人偶向來不是棘手的事，但每一步都考驗著你的智慧，如同真實的生活。\r\n成功收集正分板塊，並帶上幾朵幸運草，以擺脫負分板塊的糾纏。\r\n\r\n即使是最後1個板塊也可能讓你反敗為勝！看看誰正盲目地向前衝刺？\r\n記住：最後一個笑的人，總是笑得最開！\r\n\r\n當你正慶幸自己要贏得遊戲時，不料，竟然拿到一個負分板塊！\r\n哎呀！難道這就是人生？",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdbb9eac97a697250d394e"
+  },
+  "name": "妙語說書人",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573020/ynjmx9bkmtv1dzoiacam.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573020/j4nhaxpm8wjk3q6sb2yd.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573020/kktsnylzvrjekrvsfrvr.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573021/ynhkkem3py1j4kvg2mng.jpg"
+  ],
+  "category": [
+    "派對遊戲",
+    "新手友善"
+  ],
+  "gamer": "3~6",
+  "age": 6,
+  "rules": "「我有酒你有故事嗎？」是這款桌遊最好的註解了，遊戲畫風可愛，規則簡單易懂，透過卡牌讓玩家述說故事，猜測天馬行空的想像，或是用相似的情境混淆對手。如果大家都是很會唬爛的人，非常適合玩這款＂妙語說書人＂！",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdbc72ac97a697250d395b"
+  },
+  "name": "Uno Flip",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573232/svrs5c7f2b5gwcnbwzc1.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573232/uyrkn3yyditvvskd2rsl.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573232/che8r0ltzn1s3rtdiidj.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573232/jc9y0j0dvvcyxf7uwiih.jpg"
+  ],
+  "category": [
+    "紙牌遊戲",
+    "親子遊戲"
+  ],
+  "gamer": "2~10",
+  "age": 7,
+  "rules": "Uno Flip＂是Uno的新改版，Uno Flip的牌背也可以玩。Uno Flip的正面和原版的Uno一樣，只是新增背面另一種色系的牌組，並增加比較強大的功能牌，像是可以一次跳過全部玩家，或是讓人一次抽好幾張牌。正反兩面的牌組內都會有【翻面】(Flip)這張功能牌，打出後所有玩家要使用牌的另一面來玩。萬用牌的背面也許是普通牌，因此一手好牌有可能隨時被其他人翻盤，讓遊戲更有樂趣和變化。",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdbcdbac97a697250d3961"
+  },
+  "name": "三國殺",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573337/quozcgh4tepn4kmzhcix.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573337/vecw2tnpsibvmjdvpkms.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573337/k8lgpiglwr9yizyp2dhr.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573337/slf3fbcffsmwc6kcjtto.jpg"
+  ],
+  "category": [
+    "陣營遊戲",
+    "熱門遊戲"
+  ],
+  "gamer": "2~10",
+  "age": 13,
+  "rules": "三國殺，非常熱門的一款陣營遊戲，多達四種不同的陣營，『主公』、『忠臣』、『內奸』、『反賊』加上角色的扮演，讓遊戲更加有趣味性，而且也推出很多不同的擴充版本，對於三國迷來說，可以體驗看看這款陣營遊戲。",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdbd38ac97a697250d3967"
+  },
+  "name": "傳情畫意",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573540/mejmuczeec6xhy7p4wzi.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573540/g1jgthv8kp5vkkvnsvik.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573540/fekvzs7ymzjtynibnjbe.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573540/ljitwgjm32g9jks8vwxv.jpg"
+  ],
+  "category": [
+    "派對遊戲",
+    "新手友善"
+  ],
+  "gamer": "4~8",
+  "age": 6,
+  "rules": "＂傳情畫意＂是個團隊合作的遊戲，玩家必須「手腦並用」：手負責畫畫、腦袋負責開洞。每個人不僅要畫給別人猜，還要猜給別人畫，答案揭曉時，才發現大家是否都搞錯了什麼！這遊戲最讓人喜愛的地方，遊玩過程遠比所謂的得分有趣得多！",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdbf48aec1c915da7259a0"
+  },
+  "name": "卡卡頌",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573959/hx4kh2sqjewygef5rno1.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573958/iyjpinrsygppzofgswk4.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573958/djhs12xdrgqnml6edmy5.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677573959/agkalblbznmx4npq2gsq.jpg"
+  ],
+  "category": [
+    "策略遊戲",
+    "最新遊戲"
+  ],
+  "gamer": "2~5",
+  "age": 7,
+  "rules": "＂卡卡頌＂是台灣四大桌遊3C1B其中的1C，玩家如同中古時代的君王或諸侯，能派遣手下去開疆拓土，每拼放一塊版圖，玩家就有機會派遣手下擔任一個角色，如何拼放和派遣才能讓你在遊戲終了時獲得最高的分數？在你發現大好的得分機會時，手中還有可以派遣的手下嗎？\r\n遊戲看似簡單，但是暗藏危機，一個不小心在結算時就會被翻盤！",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdbfb8aec1c915da7259a6"
+  },
+  "name": "卡坦島",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574070/up0hyo5yzxmqlrmu2d9b.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574070/b9ptdtjcq8d0nmue3baw.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574070/m1ymk0pc8ywhyvu5lrcw.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574070/z53kuadkgmj3jwfhz02b.jpg"
+  ],
+  "category": [
+    "策略遊戲",
+    "新手友善"
+  ],
+  "gamer": "3~4",
+  "age": 10,
+  "rules": "＂卡坦島＂是台灣四大桌遊3C1B其中的1C，玩家扮演勇敢的拓荒者，來到這座卡坦島上。創立了第一批的村莊，並透過各種方法解決資源分佈不均的問題。然而卡坦島畢竟是個小島，土地與資源都很有限；當勢力越來越強大，衝突也隨之而來。你是否能從群雄中脫穎而出，稱霸卡坦島？",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdc047aec1c915da7259ac"
+  },
+  "name": "台北大空襲",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574214/sqhwfe9ecnmimll8tdd7.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574214/tadt2n91kyvplmqkuq91.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574214/wela9mkw8w1ymk7az1na.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574214/knenf813qpssoamddvig.jpg"
+  ],
+  "category": [
+    "策略遊戲",
+    "熱門遊戲"
+  ],
+  "gamer": "2~4",
+  "age": 10,
+  "rules": "《台北大空襲》將帶你回到七十多年前的台灣，玩家們扮演著一個戰時家庭中的成員，在某次轟炸後失去了你們共同的家，在危機四伏的狀況之下，玩家必須互相扶持，在戰爭中度過難關。在此同時，每個家庭成員也有自己的夢想、羈絆需要去完成。\r\n《台北大空襲》是一款讓玩家彷彿經歷了一場真實人生的合作遊戲，在戰爭結束前，每一位玩家都是生死與共的一家人，「只要有一個家人死亡，全部人就輸了。」這個遊戲裡只有一個敵人，就是戰爭的殘酷。",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdc0a7aec1c915da7259b2"
+  },
+  "name": "快手疊杯",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574309/fvcesozuat9gcwt1vqti.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574309/e1i3fszhtxqdu3hschtw.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574309/tt7mq0uivutrtp3iirnn.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574309/hkynyq841qinorp8epg4.jpg"
+  ],
+  "category": [
+    "親子遊戲",
+    "其他遊戲"
+  ],
+  "gamer": "2~4",
+  "age": 6,
+  "rules": "小小競速類型的桌遊，常常在社群影片中看到小孩子驚人的疊杯速度嗎？真的不能太小看孩子們呀~ 這款簡單又帶點競爭的桌遊，白天讓孩子們玩累完之後，晚上就能好好入睡唷！",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdc0fbaec1c915da7259b8"
+  },
+  "name": "情書",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574393/ajafqvxmyqapoqnw9hkq.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574393/srl8ygjn8e0c6a1apngt.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574393/k7udbxzd08cyih1dnomd.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574393/fg2us7qok2nixcq27wof.jpg"
+  ],
+  "category": [
+    "策略遊戲",
+    "熱門遊戲"
+  ],
+  "gamer": "2~4",
+  "age": 10,
+  "rules": "＂情書＂的規則非常簡單有趣，節奏也很明快，是個簡易上手的桌遊。遊戲中玩家想要追求公主，試圖要把親筆情書送到公主手上。然而她把自己關在深宮內院裡，因此你必須透過一些相關人士代你轉交，最後持有的手牌最親近公主就獲勝。如何取得公主的青睞，全看玩家的本事！",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdc178aec1c915da7259be"
+  },
+  "name": "拉密",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574519/g0yaa8fnzc8mnjqgjirr.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574519/piocz7zey7b7jipqesrx.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574519/wn0lqogecwrhj45aherr.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574519/ts4yzrsr1ankh7wyg5ri.jpg"
+  ],
+  "category": [
+    "其他遊戲",
+    "新手友善"
+  ],
+  "gamer": "2~4",
+  "age": 8,
+  "rules": "＂拉密＂是一款數字組合遊戲，遊戲規則簡單明瞭，能夠做非常多變化組合。由於拉密牌組合的方式有點類似麻將，也有「德國麻將」或「以色列麻將」之稱。最先出完手牌的玩家獲得分數，遊戲會以積分制的方式，玩數輪後分數最高為贏家。",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdc1e3aec1c915da7259c4"
+  },
+  "name": "拼布藝術",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574625/rl0qsfoffljvxebe40ur.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574625/gitm6lulyxnsp48abdgz.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574625/pvcpit1vl5p7kfplq3sq.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574625/ew9pzhu4pfr8fr3dcyau.jpg"
+  ],
+  "category": [
+    "其他遊戲",
+    "新手友善"
+  ],
+  "gamer": "2~2",
+  "age": 8,
+  "rules": "過去，拼布是利用剩下的碎布塊來製造衣服的方法。而如今拼布是一種藝術，設計師使用珍貴的織物來創造出美麗的紡織品。輕巧的遊戲卻有著不俗的可玩性，拼布的排列方式不同，板塊的拼接方式也不同，遊戲的過程自然也不同。若喜歡兩人遊戲，但卻不喜歡打打殺殺，這款＂拼布藝術＂會是很棒的選擇唷！",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdc244aec1c915da7259ca"
+  },
+  "name": "狼人殺",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574723/dbwfeghafxgsqtuszkz9.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574723/pmq7m0vqkj04erptxrfb.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574723/ab6b3viqznjh0sp1kjgh.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574723/buzhn8aj5wkzsxrzkakf.jpg"
+  ],
+  "category": [
+    "陣營遊戲",
+    "熱門遊戲"
+  ],
+  "gamer": "8~18",
+  "age": 12,
+  "rules": "「狼人殺」為玩家們扮演村莊中的角色，與狼人勢力對抗，或者參與狼人勢力，企圖泯滅這個村莊，在不確定其他玩家的身分下，藉由發言以及局勢走向來驅逐狼人，平民協助神職，神職帶領平民。而狼人要做的就是趁夜晚，殺光村民或者神職。",
+  "sell": true
+},{
+  "_id": {
+    "$oid": "63fdc2a7aec1c915da7259d0"
+  },
+  "name": "說妖",
+  "images": [
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574821/xldvwc8gk38vxi07kybe.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574821/hzqjsuzbdd67x8jo32gs.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574821/scs961w76cnsghegitsl.jpg",
+    "https://res.cloudinary.com/dspmovknp/image/upload/v1677574821/wnitzclurmwiozyt0tll.jpg"
+  ],
+  "category": [
+    "策略遊戲",
+    "最新遊戲"
+  ],
+  "gamer": "3~5",
+  "age": 12,
+  "rules": "在遊戲裡，玩家將會藉由輪流打出「故事卡」，每張故事卡都代表一個靈異故事。\r\n當檯面上的故事卡滿足特定妖怪的召喚條件時，便能召喚妖怪，並且使用妖怪的能力對其他玩家作祟。\r\n妖怪作祟時會對手牌、檯面甚至牌堆造成影響，同時減少其餘參與者的精神值。\r\n而遊戲的目的，就是妥善運用手上的資源與妖怪的能力，成為儀式裡留到最後的人。",
+  "sell": true
+}]

@@ -8,11 +8,47 @@
   "email": "admin@gmail.com",
   "phone": "0984222830",
   "tokens": [
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2VhNjA0ZGFlN2NhNDI0ODg4NjhkYzMiLCJpYXQiOjE2NzYzMDQ1MzgsImV4cCI6MTY3NjkwOTMzOH0.EFTc8RGWPVZgVagmQ0rGlhFY-oLVXzXGIwusKBU3Yjo"
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2VhNjA0ZGFlN2NhNDI0ODg4NjhkYzMiLCJpYXQiOjE2NzYzMDQ1MzgsImV4cCI6MTY3NjkwOTMzOH0.EFTc8RGWPVZgVagmQ0rGlhFY-oLVXzXGIwusKBU3Yjo",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2VhNjA0ZGFlN2NhNDI0ODg4NjhkYzMiLCJpYXQiOjE2NzY2ODYzNTAsImV4cCI6MTY3NzI5MTE1MH0.x7P_DDenbE8NHQnDKyAzVoWCgcvimpzWlkqZT4rsaPo",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2VhNjA0ZGFlN2NhNDI0ODg4NjhkYzMiLCJpYXQiOjE2NzY3NzAxNTEsImV4cCI6MTY3NzM3NDk1MX0.esbEK-8ZwfH6XB8hA8tS38pXRBpLcG8Xr_y_M-S0L7o",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2VhNjA0ZGFlN2NhNDI0ODg4NjhkYzMiLCJpYXQiOjE2NzY5NDAzMjEsImV4cCI6MTY3NzU0NTEyMX0.xM86-dNomtdqbw0Eez5fyfnhQf0Iuh1jeoKgIl3zt_E",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2VhNjA0ZGFlN2NhNDI0ODg4NjhkYzMiLCJpYXQiOjE2NzcxNjU5NjEsImV4cCI6MTY3Nzc3MDc2MX0.yGuOp6C9dfVh0qbzOk-mI1hFplA7wQxaVu0SnQIXYa8",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2VhNjA0ZGFlN2NhNDI0ODg4NjhkYzMiLCJpYXQiOjE2NzcyNDg1MjgsImV4cCI6MTY3Nzg1MzMyOH0.xtidnY-qvd2141rlOp7C36CZnpF0v1dG7zTw3gP732Y"
   ],
   "role": 1,
   "favorites": [],
-  "cart": []
+  "cart": [
+    {
+      "p_id": {
+        "$oid": "63ea61a6ae7ca42488868dd3"
+      },
+      "quantity": 3,
+      "price": 500,
+      "_id": {
+        "$oid": "63f193f8177c3733889685e3"
+      }
+    },
+    {
+      "p_id": {
+        "$oid": "63ea64c0ae7ca42488868df1"
+      },
+      "quantity": 3,
+      "price": 100,
+      "_id": {
+        "$oid": "63f1957c177c3733889685f5"
+      }
+    },
+    {
+      "p_id": {
+        "$oid": "63ea61f3ae7ca42488868dd6"
+      },
+      "quantity": 3,
+      "price": 300,
+      "_id": {
+        "$oid": "63f1d132e226880d80cb27b8"
+      }
+    }
+  ]
 },{
   "_id": {
     "$oid": "63ea6080ae7ca42488868dc5"
@@ -22,6 +58,32 @@
   "name": "使用者",
   "email": "user@gmail.com",
   "phone": "0972627360",
+  "tokens": [],
+  "role": 0,
+  "favorites": [],
+  "cart": []
+},{
+  "_id": {
+    "$oid": "63f03659f1456bebead8b6d3"
+  },
+  "account": "test",
+  "password": "$2b$10$e2hJTJBo6M.G7FzioGhsLut.zn3dBMdxcJd.KRgz7TGSfhGeBE.Yq",
+  "name": "test",
+  "email": "test@gmail.com",
+  "phone": "0911111111",
+  "tokens": [],
+  "role": 0,
+  "favorites": [],
+  "cart": []
+},{
+  "_id": {
+    "$oid": "63f2558c1accd1d0d90d937d"
+  },
+  "account": "testadmin",
+  "password": "$2b$10$/Xu9mOn9cBWR7A6OUTXFa.Aj7Ytr8QlMKZE5Lzlr2S6yp1Ike26km",
+  "name": "testadmin",
+  "email": "testadmin@gmail.com",
+  "phone": "0985666333",
   "tokens": [],
   "role": 0,
   "favorites": [],
